@@ -168,9 +168,11 @@ header{
     text-align: center;
 }
 /*float 3 columns to the left and one to the right */
+
 #column21{
     margin-left: 35px;
 }
+
 #column21,
 #column22,
 #column23{
@@ -202,3 +204,64 @@ header{
     font-size: 1em;
     color: rgba(0,0,0,0.6);
 }
+.company-details{
+    overflow: hidden;
+    padding: 3em 0em;
+    background: #E3F0F7;
+    text-align: center;
+    margin-top: 5em;
+}
+/* align the three columns in one line by floating all of them to the left 
+and assigning a width of 320px for each of them */
+#footer #col1,
+#footer #col2,
+#footer #col3{
+    float: left;
+    width: 320px;
+    padding: 0px 0px 0px 40px;
+}
+/*add styles t facebook and pinterest icons */
+#footer #icon{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+/*style the copyright icon */
+.copyright{
+    overflow: hidden;
+    padding: 3em 0em;
+    border-top: 20px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    background: #4CAF50;
+}
+/* adding style to the paragraph element */
+.copyright p{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* adding styles to the anchor tag */
+.copyright{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+ul.contact{ 
+	margin: 0; 
+	padding: 2em 0em 0em 0em; 
+	list-style: none; 
+} 
+ul.contact li{ 
+	display: inline-block; 
+	padding: 0em 0.10em; 
+	font-size: 1em; 
+} 
+ul.contact li a{ 
+	color: #FFF; 
+	display: inline-block; 
+	background: #4C93B9; 
+	width: 40px; 
+	height: 40px; 
+	line-height: 40px; 
+    text-align: center; 
+    text-decoration: none;
+} 
